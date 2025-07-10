@@ -17,7 +17,7 @@ if sys.platform == "win32":
     asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyAPiMqqMyUNXBL_GEWePLQE5jBvvV_HFHc")
+genai.configure(api_key="give your own API key")
 
 # Streamlit UI
 st.set_page_config(page_title="Universal Web Scraper", layout="wide")
